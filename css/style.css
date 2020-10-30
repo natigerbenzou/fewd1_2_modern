@@ -48,6 +48,17 @@ p { 		font-size:90%; margin: 0 0 .5rem 0;  }
     margin:0 0 0 0;
 }
 
+/* my custom Css */
+header{
+  background-image: url(../img/wood-texture.jpg);
+  background-size: contain; 
+  background-repeat: repeat;
+}
+span{
+  font-size: 1rem;
+  margin: auto .5rem;
+  color: #606;
+}
 /* media query 1: define styles that should only kick in if screen is above 561 pixels wide... */
 @media screen and (min-width:561px) {
 	html { font-size:105%; }
